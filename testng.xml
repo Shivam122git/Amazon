@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SCMS Suite">
+  <test name="Unit Tests">
+    <groups>
+      <run>
+        <include name="unit"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.city.service"/>
+    </packages>
+  </test>
+</suite>
