@@ -14,7 +14,6 @@ public class Citizen {
         this.contactNumber = contactNumber;
         this.email = email;
     }
-
     public String getCitizenId() { return citizenId; }
     public String getName() { return name; }
     public String getAddress() { return address; }
@@ -28,6 +27,12 @@ public class Citizen {
 
     @Override
     public String toString() {
-        return "Citizen{" + "id='" + citizenId + "', name='" + name + "'}";
+        return "Citizen{" +
+                "ID='" + citizenId + '\'' +
+                ", Name='" + name + '\'' +
+                ", Address='" + address + '\'' +
+                ", Contact='" + contactNumber + '\'' +
+                ", Email='" + email + '\'' +
+                '}';
     }
-}
+    }
